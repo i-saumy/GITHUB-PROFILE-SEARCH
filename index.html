@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Github Profile Search</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style3.css"/>
+    </head>
+ <body>
+
+    <div class="home">
+        <h1 style="text-align: center;">Github Profile Search</h1>
+   
+    <form class ="form" id="myform" autocomplete="off">
+        <div class = "form1">
+            <input type="text" class="form-control"id="search" placeholder="Search Username" required>   
+        </div>       
+        <div class="form-grp">
+            <input type="submit" class="btn btn-primary" id="btn" value="search">
+        </div>
+
+    </form>
+    <div class="form2" id="result"></div>
+</div>
+ </body>
+ <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+      integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+      crossorigin="anonymous">
+ </script>
+ <script src="script2.js"></script>
+</html>
